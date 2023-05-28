@@ -80,8 +80,9 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-.logo {
+.logoone {
     width: 80px;
+    border-radius: 600px;
 }
 #logo_link {
     padding-top: 5px;
