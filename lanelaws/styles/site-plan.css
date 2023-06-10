@@ -10,7 +10,7 @@ Fonts are separated by a | */
   --accent2-color: #256a0bff;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Actor", "Fredericka the Great", "Castoro Titling" sans-serif;
+  --heading-font: "Actor", "Fredericka the Great", "Castoro Titling", sans-serif;
   --paragraph-font: "Oswald", "Roboto Flex", helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

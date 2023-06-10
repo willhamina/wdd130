@@ -48,6 +48,8 @@ main section {
 #background {
     height: 725px;
     background-color: rgb(145, 177, 235);
+    grid-column: 1/12;
+    grid-row: 4/10;
 }
 body {
     font-family: "Josefin Sans", 'Gill Sans MT', 'Trebuchet MS';
@@ -163,10 +165,7 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-#background {
-    grid-column: 1/12;
-    grid-row: 4/10;
-}
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
