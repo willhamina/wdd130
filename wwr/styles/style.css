@@ -135,7 +135,7 @@ footer .social img {
     font-size: 2em;
     margin-top: 10px;
 }
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .rapids-card, .raft-card {
     margin: 200px 0 ;
 }
 .card-img   {
@@ -165,7 +165,10 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-
+.raft-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
 .mountains {
     width: 100%;
     grid-column: 2/7;
@@ -176,6 +179,95 @@ main section img {
     grid-column: 6/11;
     grid-row: 6/7;
 }
+
+
+
+.river-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+}
+#backgrounds {
+    display: grid;
+    grid-template-columns: auto;
+    height: 425px;
+    background-color: rgb(145, 177, 235);
+    grid-column: 1/12;
+    grid-row: 7/10;
+}
+.home-river-title {
+    font-family: "Trade Winds", Impact, 'Gill Sans MT', 'Trebuchet MS';
+    font-size: 3em;
+    
+    text-align: center;
+}
+.one-card, .three-card, .five-card, .seven-card {
+    margin: 200px 0 ;
+}
+.card-img   {
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+main section img {
+    box-sizing: border-box;
+}
+.one-card {
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.three-card {
+    grid-column: 3/6;
+    grid-row: 1/4;
+}
+.five-card {
+    grid-column: 6/9;
+    grid-row: 1/4;
+}
+.seven-card {
+    grid-column: 9/12;
+    grid-row: 1/4;
+}
+.excursions {
+    width: 100%;
+    grid-column: 2/9;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #6f7354;
+}
+.msg {
+    grid-column: 6/11;
+    grid-row: 6/7;
+}
+.msg {
+    background-color: rgb(231, 229, 229);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.join {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0101;
+    background-color: rgb(37, 144, 211);
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join:hover {
+    background-color: aliceblue;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
