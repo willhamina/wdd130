@@ -183,26 +183,23 @@ main section img {
 
 
 .river-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows:auto;
-}
-#backgrounds {
-    display: grid;
-    grid-template-columns: auto;
-    height: 425px;
-    background-color: rgb(145, 177, 235);
-    grid-column: 1/12;
-    grid-row: 7/10;
-}
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 .home-river-title {
     font-family: "Trade Winds", Impact, 'Gill Sans MT', 'Trebuchet MS';
     font-size: 3em;
-    
     text-align: center;
 }
 .one-card, .three-card, .five-card, .seven-card {
-    margin: 200px 0 ;
+    flex: 1;
+    text-align: center;
+    margin: 100px 10px;
+    width: calc(100% - 20px);
+    display: inline-block;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
 }
 .card-img   {
     border: 10px solid black;
@@ -238,35 +235,7 @@ main section img {
     grid-row: 2/4;
     box-shadow: 5px 5px 10px #6f7354;
 }
-.msg {
-    grid-column: 6/11;
-    grid-row: 6/7;
-}
-.msg {
-    background-color: rgb(231, 229, 229);
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.msg p {
-    font-size: .8em;
-    padding-bottom: 15px;
-}
-.join {
-    font-size: 18px;
-    text-align: center;
-    color: #0c0101;
-    background-color: rgb(37, 144, 211);
-    text-decoration: none;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.join:hover {
-    background-color: aliceblue;
-}
+
 
 
 @media screen and (max-width: 900px) {
